@@ -46,27 +46,24 @@ public class Student {
         System.out.println("wprowadz dane studenta do wybranego indeksu: imie, nazwisko,nr indeksu, specjalność, rok");
         Scanner a = new Scanner(System.in);        
         Student s1 = new Student(a.next(),a.next(),a.nextInt(),a.next(),a.nextInt());
-   
         
-     
-    
     }
-   
+    public void res()
+    { 
+        
+        
+        Scanner a = new Scanner(System.in);        
+        Student s1 = new Student("","",0,"",0);
+    }
+    
      public void wip()
     {
         System.out.println(this.imie);
-        System.out.println(nazwisko);
-        System.out.println(nr_indeksu);
-        System.out.println(nazwaSpecjalności);
-        System.out.println(rok_studiow);
+        System.out.println(this.nazwisko);
+        System.out.println(this.nr_indeksu);
+        System.out.println(this.nazwaSpecjalności);
+        System.out.println(this.rok_studiow);
     
     
-    }
-
-   
-
-   
-
-       
-    
+    }       
 }
